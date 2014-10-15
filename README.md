@@ -6,7 +6,7 @@ install
 
 	cd ~
 	git clone https://github.com/agustim/myscripts
-	echo '. $(~/myscripts/load)' >> ~/.bashrc
+	echo 'for load in $(~/myscripts/load); do source $load; done' >> ~/.bashrc
 
 neigh.sh
 --------
@@ -14,4 +14,9 @@ neigh.sh
 * list_neigh
 * nmap_neigh
 * ssh_neigh
+
+web.sh
+------
+
+* jcurl
 	
