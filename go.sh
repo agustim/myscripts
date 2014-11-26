@@ -1,8 +1,9 @@
 
 goroot_up() {
-	export GOROOT=~/go
+	mkdir -p ~/go
+	export GOPATH=~/go
 	PATH=$PATH:~/go/bin
 }
 goroot_down() {
-	unset GOROOT
+	unset GOPATH
 }
