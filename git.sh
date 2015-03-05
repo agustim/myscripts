@@ -2,6 +2,9 @@ csp(){
 	local file=$1
 	sed -i 's/\s\+$//' $file 
 }
+git-prompt(){
+	[[ $- == *i* ]]   &&   . ~/myscripts/git-prompt
+}
 alias gst='git status'
 alias gl='git pull'
 alias gp='git push'
