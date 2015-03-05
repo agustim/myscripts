@@ -71,7 +71,7 @@
 
         max_file_list_length=${max_file_list_length:-100}
         short_hostname=${short_hostname:-off}
-        upcase_hostname=${upcase_hostname:-on}
+        upcase_hostname=${upcase_hostname:-off}
         count_only=${count_only:-off}
         rawhex_len=${rawhex_len:-5}
 
