@@ -5,7 +5,7 @@ csp(){
 git-prompt(){
 	[[ $- == *i* ]]   &&   . ~/myscripts/git-prompt
 }
-alias gst='git status'
+alias gs='git status'
 alias gl='git pull'
 alias gp='git push'
 alias gd='git diff'
@@ -22,3 +22,5 @@ alias gcotb='git checkout --track -b'
 alias glog='git log'
 alias glogp='git log --pretty=format:"%h %s" --graph'
 alias gll='git log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat'
+alias gba='git blame'
+
