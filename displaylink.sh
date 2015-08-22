@@ -12,3 +12,11 @@ dplink() {
 		sudo xrandr --setprovideroutputsource 1 0
 	} || echo "No connected DisplayLink"
 }
+activeScreen() {
+	DISPLAY="DVI-1-0"
+	MODE="1280x1024"
+	OPTS="--left-of eDP1"
+
+	xrandr --output $DISPLAY --mode $MODE $OPTS
+} 
+
