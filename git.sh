@@ -4,6 +4,7 @@ csp(){
 }
 git-prompt(){
 	[[ $- == *i* ]]   &&   . ~/myscripts/git-prompt
+	which hub && ~/myscripts/hub.bash_completion.sh
 }
 alias gs='git status'
 alias gl='git pull'

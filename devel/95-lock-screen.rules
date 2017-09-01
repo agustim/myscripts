@@ -1,0 +1,2 @@
+ACTION=="add", ENV{ID_FS_UUID}=="7ad18cb0-8dc8-4f2c-82d6-61ac2ecf69c4", RUN+="/bin/su agusti -c 'export DISPLAY=:0 && . /home/agusti/myscripts/system.sh && unlock_screen'"
+ACTION=="remove", ENV{ID_FS_UUID}=="7ad18cb0-8dc8-4f2c-82d6-61ac2ecf69c4", RUN+="/bin/su agusti -c 'export DISPLAY=:0 && . /home/agusti/myscripts/system.sh && lock_screen'"

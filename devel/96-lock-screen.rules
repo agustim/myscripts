@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="0360", RUN+="/bin/su agusti -c 'export DISPLAY=:0 && . /home/agusti/myscripts/system.sh && unlock_screen'"
+ACTION=="remove", SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="0360", RUN+="/bin/su agusti -c 'export DISPLAY=:0 && . /home/agusti/myscripts/system.sh && lock_screen'"

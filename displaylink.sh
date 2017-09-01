@@ -13,10 +13,10 @@ dplink() {
 	} || echo "No connected DisplayLink"
 }
 activeScreen() {
-	DISPLAY="DVI-1-0"
+	MYDISPLAY="DVI-1-0"
 	MODE="1280x1024"
 	OPTS="--left-of eDP1"
 
-	xrandr --output $DISPLAY --mode $MODE $OPTS
+	xrandr --output $MYDISPLAY --mode $MODE $OPTS
 } 
 
