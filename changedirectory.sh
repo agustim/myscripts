@@ -1,2 +1,2 @@
-export CDPATH=".:~/Escriptori/Omnium:~/Escriptori/exo:~/Escriptori/guifi.net:~/Escriptori/personal"
+export CDPATH=".:~/Escriptori/Omnium:~/Escriptori/Personal"
 
